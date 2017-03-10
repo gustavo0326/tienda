@@ -66,9 +66,12 @@
                     <ul class="nav navbar-nav navbar-right">
                         <li><a href="{{url('/carrito')}}">Mi carrito
                         <span class="circle-shopping-cart">
-                      {{$productsCount}} 
+                      {{$productsCount}}
                         </span>
-                        </a>
+                            </a>
+                        </li>
+                        <li><a href="{{url('/products')}}">Panel
+                                                    </a>
                         </li>
                         <!-- Authentication Links -->
                         @if (Auth::guest())
